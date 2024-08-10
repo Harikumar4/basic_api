@@ -31,3 +31,16 @@ Fetches an image based on the search query provided in the URL parameter.
     If no image is found for the given query, the server responds with a 404 status and a message indicating that the image was not found.
     
       Image not found
+## Error Handling
+
+If an error occurs while fetching images from Pixabay, the following will happen:
+
+- The error will be logged to the server console for debugging purposes.
+- The user will receive a 404 status with the message `'Image not found'` if no image is returned or if there is an issue with the API request.
+
+### Example Error Response
+
+In case of an error or when no image is found, the server responds with:
+
+```plaintext
+Image not found
