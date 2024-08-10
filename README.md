@@ -31,9 +31,9 @@ Fetches an image based on the search query provided in the URL parameter.
 
 - **404 Not Found**
 
-If no image is found for the given query, the server responds with a 404 status and a message indicating that the image was not found.
-
-  **Example:**
-  
-  ```plaintext
-  Image not found
+    If no image is found for the given query, the server responds with a 404 status and a message indicating that the image was not found.
+    
+      **Example:**
+      
+      ```plaintext
+      Image not found
