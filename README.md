@@ -30,6 +30,4 @@ Fetches an image based on the search query provided in the URL parameter.
 
     If no image is found for the given query, the server responds with a 404 status and a message indicating that the image was not found.
     
-      
-      ```plaintext
       Image not found
